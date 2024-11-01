@@ -17,3 +17,6 @@ Now the challenge for you is:
   You should be getting a nice menu.
   
 Good luck!
+
+PS: There is aloready a sollution file. BUT! 
+It wouldn't be fun if you don't try it yourself first.
