@@ -18,3 +18,7 @@ Just clone the repository like so:
 
 And it should be fine
     
+## Where can I find the assignment? 
+You can find the assignment in assignment.txt
+
+Good luck!
