@@ -1,0 +1,19 @@
+Welcome to the very small OOP in Python course 
+
+Do the following:
+- Open assignment.py in your favorit editor
+- In the file you see functions 'display_spells' and 'menu'
+
+Now the challenge for you is:
+- Make a class SpellBook with a constructor with one argument: spells=dict
+- Add a property 'spells' that makes use of 'spells'
+- Make the functions 'display_spells' and 'menu' menthods
+- Fix your new menu method that makes use of your spells property and display_spells menthods 
+- Make a 'main' function where you do the following:
+  - Make a instance of DNDAPI and SpellBook
+  - class SpellBook should be fed with DNDAPI.spells
+  - Execute (your_instance_name).menu method
+
+  You should be getting a nice menu.
+  
+Good luck!
