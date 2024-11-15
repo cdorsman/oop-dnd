@@ -6,6 +6,7 @@ with usage of the DND API as resource.
 
 ## Installation
 Version of Python should be newer than 3.8 (and supported). Your OS of choice to run the code is perferably Linux, Mac or WSL2.
+
 TLDR; Clone the repo, make a virtenv and make sure that you have the Requests library in it. Or on Linux, install the package accordingly. 
 
 Long explanation:
@@ -24,7 +25,7 @@ Install Requests Python library
 ```bash
   pip install requests
 ```
-Or Debian:
+Or Ubuntu (and WSL2):
 ```bash
   sudo apt install python3-requests
 ```
