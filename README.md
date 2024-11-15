@@ -1,5 +1,5 @@
 
-# The very small P.O.O.P course
+# The very small P.O.O.P assignment
 
 This is a very small assignment to get acquainted a little bit with how Object Oriented Programming in Python works 
 with usage of the DND API as resource.
