@@ -2,12 +2,12 @@ import requests
 
 
 class DNDAPI:
-    def __init__(self):
+    def __init__(self) -> None:
         self.url = "https://www.dnd5eapi.co/api/spells"
         self.headers = {'Accept': 'application/json'}
         self.spells = self.connect()
 
-    def connect(self):
+    def connect(self) -> object:
         try:
             response = requests.get(self.url, headers=self.headers)
             if response.status_code == 200:
