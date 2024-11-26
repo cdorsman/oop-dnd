@@ -4,17 +4,17 @@ from dnd import DNDAPI
 
 
 class SpellBook:
-    def __init__(self, spells=dict):
-        self.spells = spells
+    def __init__(self, spells=dict)-> None:
+        self.spells: dict = spells
 
-    def display_spell(self, spell_data):
+    def display_spell(self, spell_data)-> None:
         print(f"Name: {spell_data['name']}")
         print(f"Level: {spell_data['level']}")
         print(f"Index: {spell_data['index']}")
         print(f"URL: {spell_data['url']}")
         print()
 
-    def menu(self):
+    def menu(self)-> None:
         print("Welcome to the D&D Spellbook!")
 
         while True:
